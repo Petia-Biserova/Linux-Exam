@@ -1,0 +1,8 @@
+cat Fruits.info
+cat Fruits.info | sort -k 1
+cat Fruits.info | sort -k 2 -t'#' -n
+cat Fruits.info | sort -k 3 -t'#' -n
+cat Fruits.info | sort -k 3 -t'#' -n | tail -n 1
+cat Fruits.info | sort -k 3 -t'#' -n | tail -n 1 > fruit
+cat Fruits.info | sort -k 3 -t'#' -n | head -n 3
+

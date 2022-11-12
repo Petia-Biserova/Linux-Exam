@@ -1,0 +1,10 @@
+sudo -i
+adduser examuser
+groupadd examgroup
+groupadd strypes
+usermod -a -G examgroup examuser
+usermod -a -G strypes examuser
+cat/etc/passwd > file7
+chown examuser:strypes file7
+chmod -R 752
+

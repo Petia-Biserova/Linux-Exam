@@ -1,0 +1,6 @@
+open Github with firefox
+make new Repository "Linux-Exam"
+git clone https://github.com/Petia-Biserova/Linux-Exam.git
+mkdir Ex1 , Ex2 , Ex3 , Ex4
+git status
+git add --all

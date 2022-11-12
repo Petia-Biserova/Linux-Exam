@@ -1,0 +1,17 @@
+mkdir 'Linux Exam"
+cd "Linux Exam"
+mkdir Files
+mkdir Strypes
+cd Files
+touch doc{1..5}.txt
+touch report{1..5}.doc
+touch results{1..5}.doc
+touch statistics1.xls
+touch statistics2.xls
+cd Strypes
+mkdir Day01
+mkdir Day02
+cp *.txt ~/"Linux Exam"/Strypes/Day01
+mv *.doc ~/"Linux Exam"/Strypes/Day02
+mv statistics1.xls .statistics1.xls
+rm -d Day02
